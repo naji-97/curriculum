@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contributing to the Odin Project</title>
+  </head>
+
+  <body>
+    <div class="content">
+
+      <div id="togglNav"  class="left-menu hide">
+        <div class="logo flex-box">
+          <div class="menu flex-box">
+            <i class="fa-sharp fa-solid fa-bars" onclick="toggleNav()"></i>
+          </div>
+          <div class="youtube-logo flex-box">
+            <i class="fa-brands fa-solid fa-youtube"></i>
+            <p>YouTube</p>
+            <span>MA</span>
+          </div>
+        </div>
+        <div class="list">
+          <ul>
+            <li><i class="fa-solid fa-house"></i> Home</li>
+            <li><i class="fa-regular fa-compass"></i>Explore</li>
+            <li><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"><g height="24" viewBox="0 0 24 24" width="24" class="style-scope yt-icon"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86l-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z" class="style-scope yt-icon"></path></g></svg>Shorts</li>
+            <li><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"><g class="style-scope yt-icon"><path d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z" class="style-scope yt-icon"></path></g></svg>Subscriptions</li>
+          </ul>
+          <ul>
+            <li><i class="fa-solid fa-folder-open"></i>Library</li>
+            <li><i class="fa-solid fa-clock-rotate-left"></i>History</li>
+            <li><i class="fa-solid fa-clapperboard"></i>Your videos </li>
+            <li><i class="fa-regular fa-clock"></i> Watch later</li>
+            <li><i class="fa-solid fa-download"></i> Downloads</li>
+            <li><i class="fa-solid fa-list-check"></i> Programming</li>
+            <li><i class="fa-solid fa-chevron-down"></i>Show more</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Header -->
+      <div class="header flex-box">
+        <div class="logo flex-box">
+          <div class="menu flex-box">
+            <i class="fa-sharp fa-solid fa-bars"onclick="toggleNav()" ></i>
+          </div>
+          <div class="youtube-logo flex-box">
+            <i class="fa-brands fa-solid fa-youtube"></i>
+            <p>YouTube</p>
+            <span>MA</span>
+          </div>
+        </div>
+
+        <div class="search flex-box">
+          <div class="input-search flex-box">
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="voice-search"><i class="fa-solid fa-microphone"></i></div>
+        </div>
+        <div class="right-icon flex-box">
+          <div class="upload"><i class="fa-solid fa-arrow-up"></i></div>
+          <div class="notification"><i class="fa-regular fa-bell"></i></div>
+          <div class="user">
+            <p>N</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="videos">
+      <div class="container">
+        <!-- Videos -->
+        
+        <main>
+          <div class="video">
+            <iframe
+              width="750"
+              height="350"
+              src="https://www.youtube.com/embed/V74l_zS1x8E"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <!--  -->
+            <p class="title">
+              Contributing to Open Source Part 1: The Easy Way
+            </p>
+            <div class="fedbak flex-box">
+              <span class="views">2,745,037 views</span>
+              <span class="views"
+                ><i class="fa-regular fa-thumbs-up"></i> 2,745
+              </span>
+              <span class="views"
+                ><i class="fa-regular fa-thumbs-down"></i> DISLIKE</span
+              >
+              <span class="views"><i class="fa-solid fa-share"></i> SHARE</span>
+              <span class="views"
+                ><i class="fa-solid fa-download"></i> DOWNLOAD</span
+              >
+              <span class="views"
+                ><i class="fa-solid fa-scissors"></i> CLIP</span
+              >
+            </div>
+          </div>
+          <div class="chanel flex-box">
+            <div class="channel-profile flex-box">
+              <h2>T</h2>
+              <div>
+                <p>The Odin Project</p>
+                <span>1.11K subscribes</span>
+              </div>
+            </div>
+            <button class="subscribe">SUBSCRIBE</button>
+          </div>
+          <div class="discription">
+            <p>
+              Get started with React in this crash course. We will be building a
+              task tracker app and look at components, props, state, hooks,
+              working with an API and more.
+            </p>
+            <p class="show-more">SHOW MORE</p>
+          </div>
+          
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="side-bar">
+          <!-- Categories -->
+          <div class="buttons flex-box">
+            <button>All</button>
+            <button>Source code</button>
+            <button>Git</button>
+            <button>Listenable</button>
+            <i style="margin-left: 10px" class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <!--List's Videos-->
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s.webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>TLS Handshake Deep Dive and decryption</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (1).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>Your First GitHub Pull Request (in 10 Mins)</p>
+              <h6>Traversy Media</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (2).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>What is GitHub?</p>
+              <h6>GitHub</h6>
+              <span>147K views 1 year ago</span>
+            </div>
+          </div>
+          <div class="listed-videos flex-box">
+            <div class="image">
+              <img
+                src="./images/mqdefault_6s (3).webp"
+                width="150px"
+                height="auto"
+                alt=""
+              />
+            </div>
+            <div class="title flex-box">
+              <p>GitHub Pages Deploy & Domain</p>
+              <h6>Traversy Media</h6>
+              <span>47K views 1 year ago</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="comment-section">
+        <div class="comments flex-box">
+          <p>2,761 Comments</p>
+          <p><i class="fa-solid fa-arrow-down-wide-short"></i> SORT BY</p>
+        </div>
+
+        <!-- Add comment -->
+        
+        <div class="add-comment flex-box">
+          <div class="circle">
+          <p class="user">N</p>
+        </div>
+          <input type="text" placeholder="Add a comment..." />
+        </div>
+
+        <!-- Reccent Comment -->
+        <div class="recent-comment flex-box">
+          <p class="user red">R</p>
+          <div class="coment-user flex-box">
+            <h5>Robert <span>1 year ago</span></h5>
+            <p>
+              Get started with React in this crash course. We will be
+              building
+            </p>
+          </div>
+        </div>
+        <div class="recent-comment flex-box">
+          <p class="user blue">R</p>
+          <div class="coment-user flex-box">
+            <h5>Robert <span>1 year ago</span></h5>
+            <p>
+             Wow this video was super helpful, clear, and concise. Thank you very much.
+            </p>
+          </div>
+        </div>
+        <div class="recent-comment flex-box">
+          <p class="user brown">R</p>
+          <div class="coment-user flex-box">
+            <h5>Robert <span>6 month ago</span></h5>
+            <p>
+             Thanks so much ! This video was really helpful and to the point.
+
+            </p>
+          </div>
+        </div>
+        <div class="recent-comment flex-box">
+         <div class="background"> <p class="user green">R</p></div>
+          <div class="coment-user flex-box">
+            <h5>Robert <span>1 year ago</span></h5>
+            <p>
+             I've started on a project to help beginners to get started on contributing to open source projects. It's a hands-on tutorial to learn the general workflow in github. Check it out at https://github.com/Roshanjossey/first-contributions
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
